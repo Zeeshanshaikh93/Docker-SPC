@@ -9,8 +9,6 @@
      -              main.py 
      -              requirements.txt
      -              Dockerfile
-* These files will be present in my github account name ="API"
-
 * In command line we have check weather our fastapi is working or not, to check that  
 ![Preview](images/docker.01.png)
 * After running it on command line, we have to check it on internet for checking that, "127.0.0.1/docs"

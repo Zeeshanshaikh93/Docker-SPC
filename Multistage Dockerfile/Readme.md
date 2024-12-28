@@ -53,10 +53,10 @@ password: zeeshan799351$
 
 successfully login
 
-upload your dockerfile using "vi <Filename>"
+upload your dockerfile using vi "Filename"
 
-docker image tag img:1.0 zeeshanshaikh93/<new-tag-name>
+docker image tag img:1.0 zeeshanshaikh93/"new-tag-name"
 
-docker push zeeshanshaikh93/<new-tag-name>
+docker push zeeshanshaikh93/"new-tag-name"
 
 successfully mounted to dockerhub.

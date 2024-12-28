@@ -31,23 +31,32 @@
 
 ![alt text](images/docker.05.jpg)
 
- <!-- Docker Commands for pulling image & Pushing it into Docker hub -->
+## Docker Commands for pulling image & Pushing it into Docker hub
 
 docker pull nginx:1.27
+
 docker build -t img:1.0
+
 docker image ls
+
 docker container run -d -P --name myserver img:1.0
+
 docker ps
 
-# Pushing dockerfile into dockerhub
+## Pushing dockerfile into dockerhub
 
 docker login
+
 docker login -u zeeshanshaikh93
+
 password: zeeshan799351$
+
 successfully login
 
 upload your dockerfile using "vi <Filename>"
+
 docker image tag img:1.0 zeeshanshaikh93/<new-tag-name>
+
 docker push zeeshanshaikh93/<new-tag-name>
 
-successfully mounted to dockerhub
+successfully mounted to dockerhub.
